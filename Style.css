@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Inter:wght@300;400;500;800&display=swap');
+
+*{
+    color: #F4F4F4;
+    font-family: Inter;
+    font-style: normal;
+    margin: 0;
+}
+
+footer{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #292D33;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 4vw;
+    font-size: 32px;
+}
+
+nav{
+    overflow:hidden;
+    position: fixed;
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #292D33;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 4vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+nav h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-right: 4vw;
+}
+
+.portfolio-photo{
+    margin-left: 4vw;
+    margin-top: 4vw;
+}
+
+.title-text{
+    margin-left: 5vw;
+    margin-top: 10vw;
+    margin-right: 4vw;
+}
+
+.first-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.first-row h2{
+    font-size: 128px;
+    font-weight: 800;
+    margin-right: 6vw;
+}
+
+.experience-badges{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.experience-badges ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 2vw 4vw;
+}
+.experience-badges h3{
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.experience-badges p{
+    font-weight: 300;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.experience-badge{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
